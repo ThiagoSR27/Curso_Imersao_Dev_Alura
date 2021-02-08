@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Calculadora de custo de uma corrida por quilometro</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+</head>
+
+<body>
+    <div id="teste">
+        <label for="inputDistancia">Insira a distancia percorrida:</label>
+
+        <input id="inputDistancia" type="text" placeholder="Distancia em quilometros">
+
+        <br><br>
+
+        <label for="inputTempo">Insira o tempo gasto durante o percurso:
+        </label>
+
+        <input id="inputTempo" type="text" placeholder="tempo em minutos">
+
+        <br><br>
+
+        <button class"btn" id="Calcular" onclick="calcCorrida()">Calcular valor da corrida</button>
+
+    </div>
+
+    <p id="mostraValor"></p>
+</body>
+<script src='calcCorrida.js'></script>
+
+</html>
